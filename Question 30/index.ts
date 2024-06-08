@@ -16,7 +16,7 @@ let userName: string[] = ["Admin","Samrith", "Sameer", "Kabir", "Karan"];
 
 for(let a = 0; a < userName.length; a++){
   if(userName[a] === "Admin"){
-  console.log(`\n Hello ${chalk.bold.green(userName[0])}, would you like to see a status report?\n`)
+  console.log(`\n Hello ${chalk.bold.bgGreen(userName[0])}, would you like to see a status report?\n`)
 }else{
   console.log(`\nHello ${chalk.italic.blue(userName[a])}, thank you for logging in again.\n`)
 }
